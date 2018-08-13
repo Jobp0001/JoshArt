@@ -1,0 +1,75 @@
+
+.banner{
+    padding: 0;
+}
+nav{
+    background-color: #1b1e21;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul{
+    overflow: hidden;
+    list-style:none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    font-size:25px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+nav a{
+    display: block; float: left;
+    text-decoration:none;
+    color: #FFF;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color:gray;
+}
+.about{
+    background-color: #fd7e14;
+    height: 300px;
+}
+.skills{
+    background-color:brown;
+    height: 500px;
+}
+
+#skill1{
+    background-color: yellow;
+}
+#skill2{
+    background-color: greenyellow;
+}
+#skill3{
+    background-color:plum;
+}
+#skill4{
+    background-color:forestgreen;
+}
+#skill5{
+    background-color:cornflowerblue;
+}
+#skill6{
+    background-color:coral;
+}
+
+.three{
+    background-color:saddlebrown;
+}
+
+#footerDiv{
+    padding-top: 20px;
+}
+footer{
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+}
