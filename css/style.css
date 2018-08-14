@@ -1,75 +1,366 @@
 
-.banner{
-    padding: 0;
-}
-nav{
-    background-color: #1b1e21;
-    height: 80px;
-    text-align: center;
-    text-decoration: none;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 320px) and (max-width:480px) {
+    .logo {
+        width: 29px;
+        height: 54px;
+    }
+    p{
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    nav li{
+        font-size: 12px;
+        color: #007bff;
+    }
+    .banner{
+        flex-wrap: nowrap;
+        height: initial;
+    }
+
+    #navigation{
+        background-color: #007bff;
+        height: 60px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #navigation ul{
+        padding-left: 0;
+        text-align: center;
+    }
+    #navigation li{
+        text-decoration: none;
+        display: inline-block;
+        padding-top: 15px;
+    }
+
+    .about{
+        background-color: #fd7e14;
+        height: 300px;
+    }
+    .skills{
+        background-color:brown;
+
+    }
+
+    #skill1{
+        background-color: yellow;
+        height: 300px;
+    }
+    #skill2{
+        background-color: greenyellow;
+        height: 300px;
+
+    }
+    #skill3{
+        background-color:plum;
+        height: 300px;
+
+    }
+
+    #skill4{
+        background-color:forestgreen;
+        height: 300px;
+    }
+    #skill5{
+        background-color:cornflowerblue;
+        height: 300px;
+
+    }
+    #skill6{
+        background-color:coral;
+        height: 300px;
+
+    }
+
+    .three{
+        background-color:saddlebrown;
+    }
+
+    #footerDiv{
+        padding-top: 20px;
+    }
+    footer{
+        color: #FFFFFF;
+        font-size: 12px;
+        text-align: center;
+    }
 }
 
-nav ul{
-    overflow: hidden;
-    list-style:none;
-    text-align: center;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 29px;
+        height: 54px;
+    }
+    p{
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    nav li{
+        font-size: 12px;
+        color: #007bff;
+    }
+    .banner{
+        flex-wrap: nowrap;
+        height: initial;
+    }
+
+    #navigation{
+        background-color: #007bff;
+        height: 60px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #navigation ul{
+        padding-left: 0;
+        text-align: center;
+    }
+    #navigation li{
+        text-decoration: none;
+        display: inline-block;
+        padding-top: 15px;
+    }
+
+    .about{
+        background-color: #fd7e14;
+        height: 300px;
+    }
+    .skills{
+        background-color:brown;
+
+    }
+
+    #skill1{
+        background-color: yellow;
+        height: 300px;
+    }
+    #skill2{
+        background-color: greenyellow;
+        height: 300px;
+
+    }
+    #skill3{
+        background-color:plum;
+        height: 300px;
+
+    }
+
+    #skill4{
+        background-color:forestgreen;
+        height: 300px;
+    }
+    #skill5{
+        background-color:cornflowerblue;
+        height: 300px;
+
+    }
+    #skill6{
+        background-color:coral;
+        height: 300px;
+
+    }
+
+    .three{
+        background-color:saddlebrown;
+    }
+
+    #footerDiv{
+        padding-top: 20px;
+    }
+    footer{
+        color: #FFFFFF;
+        font-size: 12px;
+        text-align: center;
+    }
 }
 
-nav li{
-    display: inline-block;
-    font-size:25px;
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .logo {
+        width: 29px;
+        height: 54px;
+    }
+    p{
+        font-size: 18px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    nav li{
+        color: #007bff;
+    }
+    .banner{
+        flex-wrap: nowrap;
+        height: initial;
+    }
+
+    #navigation{
+        background-color: #007bff;
+        height: 80px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #navigation ul{
+        padding-left: 0;
+        text-align: center;
+    }
+    #navigation li{
+        text-decoration: none;
+        display: inline-block;
+        padding-top: 15px;
+    }
+
+    .about{
+        background-color: #fd7e14;
+        height: 300px;
+    }
+    .skills{
+        background-color:brown;
+
+    }
+
+    #skill1{
+        background-color: yellow;
+        height: 300px;
+    }
+    #skill2{
+        background-color: greenyellow;
+        height: 300px;
+
+    }
+    #skill3{
+        background-color:plum;
+        height: 300px;
+
+    }
+
+    #skill4{
+        background-color:forestgreen;
+        height: 300px;
+    }
+    #skill5{
+        background-color:cornflowerblue;
+        height: 300px;
+
+    }
+    #skill6{
+        background-color:coral;
+        height: 300px;
+
+    }
+
+    .three{
+        background-color:saddlebrown;
+    }
+
+    #footerDiv{
+        padding-top: 20px;
+    }
+    footer{
+        color: #FFFFFF;
+        font-size: 12px;
+        text-align: center;
+    }
 }
 
-nav a{
-    display: block; float: left;
-    text-decoration:none;
-    color: #FFF;
-}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .logo {
+        width: 59px;
+        height: 74px;
+    }
+    p{
+        font-size: 24px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    nav li{
+        color: #007bff;
+    }
+    .banner{
+        flex-wrap: nowrap;
+        height: initial;
+    }
 
-nav a:hover{
-    text-decoration: none;
-    color:gray;
-}
-.about{
-    background-color: #fd7e14;
-    height: 300px;
-}
-.skills{
-    background-color:brown;
-    height: 500px;
-}
+    #navigation{
+        background-color: #007bff;
+        height: 100px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
 
-#skill1{
-    background-color: yellow;
-}
-#skill2{
-    background-color: greenyellow;
-}
-#skill3{
-    background-color:plum;
-}
-#skill4{
-    background-color:forestgreen;
-}
-#skill5{
-    background-color:cornflowerblue;
-}
-#skill6{
-    background-color:coral;
-}
+    }
 
-.three{
-    background-color:saddlebrown;
-}
+    #navigation ul{
+        padding-left: 0;
+        text-align: center;
+    }
+    #navigation li{
+        text-decoration: none;
+        display: inline-block;
+        padding-top: 25px;
+    }
 
-#footerDiv{
-    padding-top: 20px;
-}
-footer{
-    color: #FFFFFF;
-    font-size: 12px;
-    text-align: center;
+    .about{
+        background-color: #fd7e14;
+        height: 1080px;
+    }
+    .skills{
+        background-color:brown;
+
+    }
+
+    #skill1{
+        background-color: yellow;
+        height: 540px;
+    }
+    #skill2{
+        background-color: greenyellow;
+        height: 540px;
+
+    }
+    #skill3{
+        background-color:plum;
+        height: 540px;
+
+    }
+
+    #skill4{
+        background-color:forestgreen;
+        height: 540px;
+    }
+    #skill5{
+        background-color:cornflowerblue;
+        height: 540px;
+
+    }
+    #skill6{
+        background-color:coral;
+        height: 540px;
+
+    }
+
+    .three{
+        background-color:saddlebrown;
+    }
+
+    #footerDiv{
+        padding-top: 25px;
+    }
+    footer{
+        color: #FFFFFF;
+        font-size: 12px;
+        text-align: center;
+    }
 }
