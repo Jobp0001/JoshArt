@@ -1,6 +1,9 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 320px) and (max-width:480px) {
+    #navigation{
+        margin: 0 auto;
+    }
     .logo {
         width: 29px;
         height: 54px;
@@ -10,33 +13,13 @@
         padding-left: 10px;
         padding-right: 10px;
     }
-    nav li{
-        font-size: 12px;
-        color: #007bff;
-    }
+
     .banner{
         flex-wrap: nowrap;
         height: initial;
     }
 
-    #navigation{
-        background-color: #007bff;
-        height: 60px;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
 
-    }
-
-    #navigation ul{
-        padding-left: 0;
-        text-align: center;
-    }
-    #navigation li{
-        text-decoration: none;
-        display: inline-block;
-        padding-top: 15px;
-    }
 
     .about{
         background-color: #fd7e14;
@@ -102,33 +85,12 @@
         padding-left: 20px;
         padding-right: 20px;
     }
-    nav li{
-        font-size: 12px;
-        color: #007bff;
-    }
+
     .banner{
         flex-wrap: nowrap;
         height: initial;
     }
 
-    #navigation{
-        background-color: #007bff;
-        height: 60px;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-
-    }
-
-    #navigation ul{
-        padding-left: 0;
-        text-align: center;
-    }
-    #navigation li{
-        text-decoration: none;
-        display: inline-block;
-        padding-top: 15px;
-    }
 
     .about{
         background-color: #fd7e14;
@@ -194,32 +156,12 @@
         padding-left: 30px;
         padding-right: 30px;
     }
-    nav li{
-        color: #007bff;
-    }
+
     .banner{
         flex-wrap: nowrap;
         height: initial;
     }
 
-    #navigation{
-        background-color: #007bff;
-        height: 80px;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-
-    }
-
-    #navigation ul{
-        padding-left: 0;
-        text-align: center;
-    }
-    #navigation li{
-        text-decoration: none;
-        display: inline-block;
-        padding-top: 15px;
-    }
 
     .about{
         background-color: #fd7e14;
@@ -294,25 +236,6 @@
     .banner{
         flex-wrap: nowrap;
         height: initial;
-    }
-
-    #navigation{
-        background-color: #007bff;
-        height: 100px;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-
-    }
-
-    #navigation ul{
-        padding-left: 0;
-        text-align: center;
-    }
-    #navigation li{
-        text-decoration: none;
-        display: inline-block;
-        padding-top: 25px;
     }
 
     .about{
