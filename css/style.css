@@ -1,8 +1,33 @@
+.aboutSection{
+    height:700px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+}
+.row skills{border-style: solid;
+    border-color: red;}
+#skill1{border-style: solid;
+    border-color: red;}
+#skill2{border-style: solid;
+    border-color: red;}
+#skill3{border-style: solid;
+    border-color: red;}
+#skill4{border-style: solid;
+    border-color: red;}
+#skill5{border-style: solid;
+    border-color: red;}
+#skill6{border-style: solid;
+    border-color: red;}
+.row three{border-style: solid;
+    border-color: red;}
+
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 320px) and (max-width:480px) {
-    #navigation{
-        margin: 0 auto;
+    body{
+        margin:0;
+        background-image: url("./Images/NewT.jpg");
     }
     .logo {
         width: 29px;
@@ -21,47 +46,36 @@
 
 
 
-    .about{
-        background-color: #fd7e14;
-        height: 300px;
-    }
-    .skills{
-        background-color:brown;
+    /*.about{*/
 
-    }
+        /*height: 300px;*/
+    /*}*/
 
     #skill1{
-        background-color: yellow;
         height: 300px;
     }
     #skill2{
-        background-color: greenyellow;
         height: 300px;
 
     }
     #skill3{
-        background-color:plum;
         height: 300px;
 
     }
 
     #skill4{
-        background-color:forestgreen;
         height: 300px;
     }
     #skill5{
-        background-color:cornflowerblue;
         height: 300px;
 
     }
     #skill6{
-        background-color:coral;
         height: 300px;
 
     }
 
     .three{
-        background-color:saddlebrown;
     }
 
     #footerDiv{
@@ -92,47 +106,35 @@
     }
 
 
-    .about{
-        background-color: #fd7e14;
-        height: 300px;
-    }
-    .skills{
-        background-color:brown;
-
-    }
+    /*.about{*/
+        /*height: 300px;*/
+    /*}*/
 
     #skill1{
-        background-color: yellow;
         height: 300px;
     }
     #skill2{
-        background-color: greenyellow;
         height: 300px;
 
     }
     #skill3{
-        background-color:plum;
         height: 300px;
 
     }
 
     #skill4{
-        background-color:forestgreen;
         height: 300px;
     }
     #skill5{
-        background-color:cornflowerblue;
         height: 300px;
 
     }
     #skill6{
-        background-color:coral;
         height: 300px;
 
     }
 
     .three{
-        background-color:saddlebrown;
     }
 
     #footerDiv{
@@ -163,47 +165,34 @@
     }
 
 
-    .about{
-        background-color: #fd7e14;
-        height: 300px;
-    }
-    .skills{
-        background-color:brown;
-
-    }
-
+    /*.about{*/
+        /*height: 300px;*/
+    /*}*/
     #skill1{
-        background-color: yellow;
         height: 300px;
     }
     #skill2{
-        background-color: greenyellow;
         height: 300px;
 
     }
     #skill3{
-        background-color:plum;
         height: 300px;
 
     }
 
     #skill4{
-        background-color:forestgreen;
         height: 300px;
     }
     #skill5{
-        background-color:cornflowerblue;
         height: 300px;
 
     }
     #skill6{
-        background-color:coral;
         height: 300px;
 
     }
 
     .three{
-        background-color:saddlebrown;
     }
 
     #footerDiv{
@@ -238,48 +227,34 @@
         height: initial;
     }
 
-    .about{
-        background-color: #fd7e14;
-        height: 1080px;
-    }
-    .skills{
-        background-color:brown;
-
-    }
+    /*.about{*/
+        /*height: 1080px;*/
+    /*}*/
 
     #skill1{
-        background-color: yellow;
         height: 540px;
     }
     #skill2{
-        background-color: greenyellow;
         height: 540px;
 
     }
     #skill3{
-        background-color:plum;
         height: 540px;
 
     }
 
     #skill4{
-        background-color:forestgreen;
         height: 540px;
     }
     #skill5{
-        background-color:cornflowerblue;
         height: 540px;
 
     }
     #skill6{
-        background-color:coral;
         height: 540px;
 
     }
 
-    .three{
-        background-color:saddlebrown;
-    }
 
     #footerDiv{
         padding-top: 25px;
