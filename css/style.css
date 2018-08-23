@@ -5,8 +5,9 @@ html {
     width: 0px;
     background: transparent;
 }
-
-
+::selection {
+    background: #b4d394; /* WebKit/Blink Browsers */
+}
 
 .row skills{border-style: solid;
     border-color: red;}
@@ -39,16 +40,31 @@ html {
     border-width:0.5px;
 }
 
-
+body {
+    background: url("../Images/mainBg-01.svg") repeat-y;
+    background-size: contain;
+}
 
 @media only screen and (min-width: 320px) and (max-width:480px) {
     body{
         margin:0;
         background-image: url("./Images/NewT.jpg");
     }
+    .navbar-nav li{
+        padding-left: 45px;
+        padding-right: 45px;]
+    }
+    .nav-link{
+        font-family:"Yantramanav",sans-serif;
+        top: 50%;
+    }
     .logo {
         width: 29px;
         height: 54px;
+    }
+    .headerLogo{
+        width: 80px;
+        height: 80px;
     }
     p{
         font-size: 12px;
@@ -99,20 +115,25 @@ html {
 
     /*Content:22-Aug-18*/
     .aboutSection{
-        height:700px;
+        height:768px;
         border-style: solid;
         border-color: blue;
         border-width: .5px;
     }
     .introText{
-        position: absolute;
-        bottom: 20%;
-        left: 25px;
+        font-family: "Poppins Light", sans-serif;
+        color:#ec9d3e;
     }
     .introSubText{
-        position: absolute;
-        bottom: 12%;
-        left: 25px;
+        font-family: "Varela Round", sans-serif;
+        color: #112b3d;
+        font-weight: bold;
+        font-size: 32px;
+    }
+    .about{
+        position:absolute;
+        bottom:25%;
+        left:60px;
     }
     .imageHolder{
         padding-top: 15px;
@@ -133,6 +154,18 @@ html {
     .logo {
         width: 29px;
         height: 54px;
+    }
+    .navbar{
+        background: transparent;
+        position: absolute;
+    }
+    .headerLogo{
+        width: 80px;
+        height: 80px;
+    }
+    .navbar-nav li{
+        padding-left: 30px;
+        padding-right: 30px;]
     }
     p{
         font-size: 14px;
@@ -183,20 +216,25 @@ html {
 
     /*Content:22-Aug-18*/
     .aboutSection{
-        height:700px;
+        height:768px;
         border-style: solid;
         border-color: blue;
         border-width: .5px;
     }
     .introText{
-        position: absolute;
-        bottom: 20%;
-        left: 25px;
+        font-family: "Poppins Light", sans-serif;
+        color:#ec9d3e;
     }
     .introSubText{
-        position: absolute;
-        bottom: 12%;
-        left: 25px;
+        font-family: "Varela Round", sans-serif;
+        color: #112b3d;
+        font-weight: bold;
+        font-size: 34px;
+    }
+    .about{
+        position:absolute;
+        bottom:25%;
+        left:60px;
     }
     .imageHolder{
         padding-top: 15px;
@@ -217,6 +255,18 @@ html {
     .logo {
         width: 29px;
         height: 54px;
+    }
+    .navbar{
+        background: transparent;
+        position: absolute;
+    }
+    .headerLogo{
+        width: 80px;
+        height: 80px;
+    }
+    .navbar-nav li{
+        padding-left: 45px;
+        padding-right: 45px;]
     }
     p{
         font-size: 18px;
@@ -267,20 +317,25 @@ html {
 
     /*Content:22-Aug-18*/
     .aboutSection{
-        height:700px;
+        height:768px;
         border-style: solid;
         border-color: blue;
         border-width: .5px;
     }
     .introText{
-        position: absolute;
-        bottom: 20%;
-        left: 25px;
+        font-family: "Poppins Light", sans-serif;
+        color:#ec9d3e;
     }
     .introSubText{
-        position: absolute;
-        bottom: 12%;
-        left: 25px;
+        font-family: "Varela Round", sans-serif;
+        color: #112b3d;
+        font-weight: bold;
+        font-size: 48px;
+    }
+    .about{
+        position:absolute;
+        bottom:25%;
+        left:60px;
     }
     .imageHolder{
         padding-top: 15px;
@@ -301,9 +356,21 @@ html {
     .testNav{
         margin: auto;
     }
+    .navbar{
+        background: transparent;
+        position: absolute;
+    }
     .logo {
         width: 59px;
         height: 74px;
+    }
+    .navbar-nav li{
+        padding-left: 45px;
+        padding-right: 45px;]
+    }
+    .headerLogo{
+        width: 80px;
+        height: 80px;
     }
     p{
         font-size: 18px;
@@ -352,20 +419,25 @@ html {
 
     /*Content:22-Aug-18*/
     .aboutSection{
-        height:700px;
+        height:768px;
         border-style: solid;
         border-color: blue;
         border-width: .5px;
     }
     .introText{
-        position: absolute;
-        bottom: 20%;
-        left: 25px;
+        font-family: "Poppins Light", sans-serif;
+        color:#ec9d3e;
     }
     .introSubText{
-        position: absolute;
-        bottom: 12%;
-        left: 25px;
+        font-family: "Varela Round", sans-serif;
+        color: #112b3d;
+        font-weight: bold;
+        font-size: 64px;
+    }
+    .about{
+        position:absolute;
+        bottom:25%;
+        left:60px;
     }
     .imageHolder{
         padding-top: 15px;
@@ -386,10 +458,29 @@ html {
     .testNav{
         margin: auto;
     }
+
+    .navbar{
+        background: transparent;
+        position: absolute;
+    }
     .logo {
         width: 59px;
         height: 74px;
     }
+    .headerLogo{
+        width: 80px;
+        height: 80px;
+    }
+    .nav-link{
+        font-family:"Yantramanav",sans-serif;
+        font-size: 18px;
+        color: #252828;
+    }
+    .navbar-nav li{
+        padding-left: 60px;
+        padding-right: 60px;]
+    }
+
     p{
         font-size: 18px;
         padding-left: 40px;
@@ -437,20 +528,31 @@ html {
 
     /*Content:22-Aug-18*/
     .aboutSection{
-        height:700px;
+        height:768px;
         border-style: solid;
         border-color: blue;
         border-width: .5px;
     }
     .introText{
-        position: absolute;
-        bottom: 20%;
-        left: 25px;
+        font-family: "Poppins Light", sans-serif;
+        color:#ec9d3e;
     }
     .introSubText{
-        position: absolute;
-        bottom: 12%;
-        left: 25px;
+        font-family: "Varela Round", sans-serif;
+        color: #112b3d;
+        font-weight: bold;
+        font-size: 64px;
+    }
+    .about{
+        position:absolute;
+        bottom:15%;
+        left:60px;
+    }
+
+    .graphic{
+        position:absolute;
+        bottom:15%;
+        right:60px;
     }
     .imageHolder{
         padding-top: 15px;
@@ -463,6 +565,7 @@ html {
     .skillText{
         margin-left: 10px;
     }
+
 
     /*Content:22-Aug-18*/
 }
