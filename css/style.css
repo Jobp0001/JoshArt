@@ -551,7 +551,7 @@ body {
 
     .graphic{
         position:absolute;
-        bottom:15%;
+        top:15%;
         right:60px;
     }
     .imageHolder{

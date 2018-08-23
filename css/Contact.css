@@ -1,0 +1,198 @@
+/*.heading {*/
+    /*height: 700px;*/
+/*}*/
+.contact {
+    margin-top: 88px;
+    font-family: "Poppins Light";
+}
+.heading {
+    height: 680px;
+}
+
+@media only screen and (min-width: 320px) and (max-width:480px) {
+    body{
+        margin:0;
+        background-image: url("./Images/NewT.jpg");
+    }
+    .navbar-nav li{
+        padding-left: 45px;
+        padding-right: 45px;]
+    }
+    .navbar{
+        background: white;
+    }
+    .nav-link{
+        font-family:"Yantramanav",sans-serif;
+        top: 50%;
+    }
+    .logo {
+        width: 29px;
+        height: 54px;
+    }
+    .headerLogo{
+        width: 80px;
+        height: 80px;
+    }
+    .contact {
+        margin-top: 15%;
+        font-family: "Poppins Light";
+    }
+
+
+    #footerDiv{
+        padding-top: 20px;
+    }
+    footer{
+        color: #FFFFFF;
+        font-size: 12px;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 764px) {
+    .logo {
+        width: 29px;
+        height: 54px;
+    }
+    .navbar{
+        background: white;
+    }
+    .headerLogo{
+        width: 80px;
+        height: 80px;
+    }
+    .navbar-nav li{
+        padding-left: 30px;
+        padding-right: 30px;]
+    }
+    .contact {
+        margin-top: 15%;
+        font-family: "Poppins Light";
+    }
+
+    #footerDiv{
+        padding-top: 20px;
+    }
+    footer{
+        color: #FFFFFF;
+        font-size: 12px;
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and (min-width: 764px) and (max-width: 992px) {
+    .logo {
+        width: 29px;
+        height: 54px;
+    }
+    .navbar{
+        background: transparent;
+        position: absolute;
+    }
+    .headerLogo{
+        width: 80px;
+        height: 80px;
+    }
+    .navbar-nav li{
+        padding-left: 45px;
+        padding-right: 45px;]
+    }
+    .contact {
+        margin-top: 15%;
+        font-family: "Poppins Light";
+    }
+
+    #footerDiv{
+        padding-top: 20px;
+    }
+    footer{
+        color: #FFFFFF;
+        font-size: 12px;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .testNav{
+        margin: auto;
+    }
+    .navbar{
+        background: transparent;
+        position: absolute;
+    }
+    .logo {
+        width: 59px;
+        height: 74px;
+    }
+    .navbar-nav li{
+        padding-left: 45px;
+        padding-right: 45px;]
+    }
+    .headerLogo{
+        width: 80px;
+        height: 80px;
+    }
+    .contact {
+        margin-top: 15%;
+        font-family: "Poppins Light";
+    }
+    #footerDiv{
+        padding-top: 25px;
+    }
+    footer{
+        color: #FFFFFF;
+        font-size: 12px;
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px){
+    .testNav{
+        margin: auto;
+    }
+
+    .navbar{
+        background: transparent;
+        position: absolute;
+    }
+    .logo {
+        width: 59px;
+        height: 74px;
+    }
+    .headerLogo{
+        width: 80px;
+        height: 80px;
+    }
+    .nav-link{
+        font-family:"Yantramanav",sans-serif;
+        font-size: 18px;
+        color: #252828;
+    }
+    .navbar-nav li{
+        padding-left: 60px;
+        padding-right: 60px;]
+    }
+    .contact {
+        margin-top: 15%;
+        font-family: "Poppins Light";
+    }
+
+    #footerDiv{
+        padding-top: 25px;
+    }
+    footer{
+        color: #FFFFFF;
+        font-size: 12px;
+        text-align: center;
+    }
+    .three {
+        bottom: 0;
+    }
+
+}
