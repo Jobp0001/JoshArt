@@ -12,10 +12,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins|Varela+Round|Yantramanav" rel="stylesheet">
+    <script src="js/three.min.js"></script>
+    <script src="js/index.js"></script>
+
 </head>
 
 <body>
 
+</div>
 <nav class="navbar navbar-expand-sm navbar-light col-xl-12">
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navigation">
         <span class="navbar-toggler-icon"/>
@@ -23,7 +27,7 @@
     <div class="collapse navbar-collapse justify-content-sm-center align-items-center" id="navigation">
         <ul class="navbar-nav">
             <li class="row nav-item align-items-center">
-                <a class="nav-link order-sm-0 order-0 order-md-0" href="About">ABOUT</a>
+                <a class="nav-link order-sm-0 order-0 order-md-0" href="index.html">ABOUT</a>
             </li>
             <li class="row nav-item order-sm-1 order-1 order-md-1 align-items-center">
                 <a class="nav-link" href="About">PROJECTS</a>
@@ -42,96 +46,76 @@
 </nav>
 
     <div class="container-fluid">
-        <section class="row aboutSection">
-            <div class="col-6 about">
-                <h1 class="col-12 introText">Hello, I'm</h1>
-                <h1 class="col-12 introSubText">JOSEPH JOB</h1>
-            </div>
-            <div class="col-6 graphic">
-                <img src="Images/Pattern-01.svg"/>
-            </div>
+        <section class="row graphicSection">
+            <div class="graphic" id="graphicContainer"></div>
         </section>
 
-        <section class="row skills">
-            <div class="col-12 align-items-center justify-content-center">
-                <h1 class="display-4" align="center">About me</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pretium ante eu consequat ornare.
-                    Phasellus velit augue, consectetur sit amet tempus vel, imperdiet quis mi. Morbi pharetra turpis
-                    lacinia interdum pellentesque. Morbi pulvinar nulla vitae eros ullamcorper finibus sit amet congue enim.
-                    Pellentesque tortor quam, sollicitudin finibus volutpat condimentum, venenatis eget velit. Morbi enim
-                    lacus, mollis in nunc sed, lacinia posuere eros. Pellentesque gravida neque iaculis lorem lacinia sollicitudin.
-                    Duis dignissim metus sit amet diam tincidunt, quis eleifend enim scelerisque. Donec nec purus eu purus posuere porta.</p>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" id="skill1" >
+        <section class="row align-items-center justify-content-center" id="aboutMe">
+                <h1 align="center">About me</h1>
+                <p align="center">A systematic and creative mind passionate in graphic design and animation.
+                    Skillful in various adobe software and regularly updating knowledge in code,
+                    having an aim to master development skills of virtual and augmented reality interfaces. Likes to scribble, tinker and create.
+                    Loves watching the night sky, the blue color and stars.
+                    Likes to scribble, tinker and create.
+                    Loves watching the night sky, the blue color and stars</p>
+        </section>
+
+        <section class="row skillContainer">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 skill">
                 <div class="imageHolder row justify-content-center">
-                    <div class="col-sm-3 col-md-5 col-xl-4 col-5">
-                        <img src="Images/Placeholder-01.jpg" height="150" width="150"/>
-                    </div>
+                    <img src="Images/Icons-01.svg" />
                 </div>
                 <div class=" skillName row justify-content-center">
                     <h4>Graphic Design</h4>
-                    <p class="skillText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Cras aliquet leo malesuada, dictum sem nec, eleifend massa.
-                        Aliquam nec est ut diam efficitur volutpat </p>
+                    <p class="skillText">I enjoy creating new and unique visual identity for any subject.
+                        Each moment of creating a design is an opportunity to explore something
+                        new and make an understanding of concepts that might be foreign.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" id="skill2" >
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 skill">
                 <div class="imageHolder row justify-content-center">
-                    <div class="col-sm-3 col-md-5 col-xl-4 col-5">
-                        <img src="Images/Placeholder-01.jpg" height="150" width="150"/>
-                    </div>
+                        <img src="Images/Icons-02.svg" />
                 </div>
                 <div class=" skillName row justify-content-center">
                     <h4>Front End Development</h4>
-                    <p class="skillText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Cras aliquet leo malesuada, dictum sem nec, eleifend massa.
-                        Aliquam nec est ut diam efficitur volutpat </p>
+                    <p class="skillText">Developing interfaces is always an interesting task, as you have to think from a user
+                    perspective.Designing and developing responsive designs for websites, apps and interactive media.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" id="skill3" >
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 skill">
                 <div class="imageHolder row justify-content-center">
-                    <div class="col-sm-3 col-md-5 col-xl-4 col-5">
-                        <img src="Images/Placeholder-01.jpg" height="150" width="150"/>
-                    </div>
+                        <img src="Images/Icons-03.svg" />
                 </div>
                 <div class=" skillName row justify-content-center">
                     <h4>User Experience Design</h4>
-                    <p class="skillText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Cras aliquet leo malesuada, dictum sem nec, eleifend massa.
-                        Aliquam nec est ut diam efficitur volutpat </p>
+                    <p class="skillText">Developing interfaces is always an interesting task, as you have to think from a user
+                        perspective.Designing and developing responsive designs for websites, apps and interactive media.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" id="skill4" >
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 skill">
                 <div class="imageHolder row justify-content-center">
-                    <div class="col-sm-3 col-md-5 col-xl-4 col-5">
-                        <img src="Images/Placeholder-01.jpg" height="150" width="150"/>
-                    </div>
+                        <img src="Images/Icons-04.svg" height="200" width="200"/>
                 </div>
                 <div class=" skillName row justify-content-center">
                     <h4>Animation</h4>
-                    <p class="skillText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Cras aliquet leo malesuada, dictum sem nec, eleifend massa.
-                        Aliquam nec est ut diam efficitur volutpat </p>
+                    <p class="skillText">My interest in animation started from a very young age. As you have to think from a user
+                        perspective.Designing and developing responsive designs for websites, apps and interactive media.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" id="skill5" >
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 skill">
                 <div class="imageHolder row justify-content-center">
-                    <div class="col-sm-3 col-md-5 col-xl-4 col-5">
-                        <img src="Images/Placeholder-01.jpg" height="150" width="150"/>
-                    </div>
+                        <img src="Images/Icons-05.svg" height="200" width="200"/>
                 </div>
                 <div class=" skillName row justify-content-center">
                     <h4>Branding</h4>
                     <p class="skillText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Cras aliquet leo malesuada, dictum sem nec, eleifend massa.
-                        Aliquam nec est ut diam efficitur volutpat </p>
+                        Aliquam nec est ut diam efficitur volutpat</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" id="skill6" >
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 skill">
                 <div class="imageHolder row justify-content-center">
-                    <div class="col-sm-3 col-md-5 col-xl-4 col-5">
-                        <img src="Images/Placeholder-01.jpg" height="150" width="150"/>
-                    </div>
+                        <img src="Images/Icons-06.svg" height="200" width="200"/>
                 </div>
                 <div class=" skillName row justify-content-center">
                     <h4>Typography</h4>
@@ -142,13 +126,15 @@
             </div>
         </section>
 
-        <section class="row three">
-            <div class="col-lg-12 text-center bg-dark" id="footerDiv">
-                <img src="Images/Logo.png" height="39" width="63"/>
-                <footer>Copyright©2018.Joseph Job</footer>
-            </div>
+        <section class="row justify-content-center align-items-center" id="footer">
+                <img class="footerLogo" src="Images/Footerlogo-01.svg" id="footerDiv" height="39" width="63"/>
+                <p class="footerText">Copyright©2018.Joseph Job</p>
         </section>
     </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/Graphics.js"></script>
+
 </body>
 </html>

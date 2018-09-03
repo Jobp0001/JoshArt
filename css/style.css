@@ -1,472 +1,195 @@
 html {
-    overflow:   scroll;
+    overflow: scroll;
 }
-::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
-}
-::selection {
-    background: #b4d394; /* WebKit/Blink Browsers */
-}
-
-.row skills{border-style: solid;
-    border-color: red;}
-#skill1{border-style: solid;
-    border-color: red;
-    border-width:0.5px;
-}
-#skill2{border-style: solid;
-    border-color: red;
-    border-width:0.5px;
-}
-#skill3{border-style: solid;
-    border-color: red;
-    border-width:0.5px;
-}
-#skill4{border-style: solid;
-    border-color: red;
-    border-width:0.5px;
-}
-#skill5{border-style: solid;
-    border-color: red;
-    border-width:0.5px;
-}
-#skill6{border-style: solid;
-    border-color: red;
-    border-width:0.5px;
-}
-.row three{border-style: solid;
-    border-color: red;
-    border-width:0.5px;
-}
-
-body {
+body{
+    margin:0;
     background: url("../Images/mainBg-01.svg") repeat-y;
     background-size: contain;
 }
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background: transparent;
+}
+::selection {
+    background: #b4d394;
+}
+.graphic{
+    overflow: hidden;
+    z-index: initial;
+    top:15%;
+}
+.skillContainer{
+    margin-bottom: 400px;
+    padding-bottom: 180px;
+}
+.skill{
+    border : #6c757d .025px solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
-@media only screen and (min-width: 320px) and (max-width:480px) {
-    body{
-        margin:0;
-        background-image: url("./Images/NewT.jpg");
-    }
+.skillText{
+    margin-left: 10px;
+    font-size:14px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-right: 15%;
+}
+p{
+    font-family: "Poppins Light", sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+h1{
+    font-family: Yantramanav, sans-serif;
+    font-size: 52px;
+}
+#aboutMe{
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+#footer{
+    height: 200px;
+    background-color: #252828 ;
+    font-family: "Poppins Light", sans-serif;
+    color: #FFFFFF;
+}
+.footerLogo{
+    height: 80px;
+    width: 80px;
+}
+
+.footerText{
+    padding-left: 10px;
+    padding-right: 0;
+}
+.headerLogo{
+    width: 80px;
+    height: 80px;
+}
+.graphicSection{
+    height:768px;
+    border: 1px solid blue;
+}
+
+.imageHolder{
+    padding-top: 15px;
+}
+.imageHolder img{
+    height: 180px;
+    width: 200px;
+}
+@media only screen and (min-width: 320px) and (max-width:576px) {
+
     .navbar-nav li{
         padding-left: 45px;
-        padding-right: 45px;]
+        padding-right: 45px;
     }
     .nav-link{
         font-family:"Yantramanav",sans-serif;
         top: 50%;
     }
-    .logo {
-        width: 29px;
-        height: 54px;
-    }
-    .headerLogo{
-        width: 80px;
-        height: 80px;
-    }
+
     p{
         font-size: 12px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 15%;
+        padding-right: 15%;
     }
-
-    .banner{
-        flex-wrap: nowrap;
-        height: initial;
-    }
-
-    #skill1{
-        height: 300px;
-    }
-    #skill2{
-        height: 300px;
-
-    }
-    #skill3{
-        height: 300px;
-
-    }
-
-    #skill4{
-        height: 300px;
-    }
-    #skill5{
-        height: 300px;
-
-    }
-    #skill6{
-        height: 300px;
-
-    }
-
-    .three{
-    }
-
-    #footerDiv{
-        padding-top: 20px;
-    }
-    footer{
-        color: #FFFFFF;
-        font-size: 12px;
-        text-align: center;
-    }
-
-    /*Content:22-Aug-18*/
-    .aboutSection{
-        height:768px;
-        border-style: solid;
-        border-color: blue;
-        border-width: .5px;
-    }
-    .introText{
-        font-family: "Poppins Light", sans-serif;
-        color:#ec9d3e;
-    }
-    .introSubText{
-        font-family: "Varela Round", sans-serif;
-        color: #112b3d;
-        font-weight: bold;
-        font-size: 32px;
-    }
-    .about{
-        position:absolute;
-        bottom:25%;
-        left:60px;
-    }
-    .imageHolder{
-        padding-top: 15px;
-    }
-
-    .skillName{
-        padding-top: 15px;
-    }
-
-    .skillText{
-        margin-left: 10px;
-    }
-
-    /*Content:22-Aug-18*/
 }
 
-@media only screen and (min-width: 480px) and (max-width: 764px) {
-    .logo {
-        width: 29px;
-        height: 54px;
-    }
-    .navbar{
-        background: transparent;
-        position: absolute;
-    }
-    .headerLogo{
-        width: 80px;
-        height: 80px;
-    }
+@media only screen and (min-width: 576px) and (max-width: 764px) {
+
     .navbar-nav li{
-        padding-left: 30px;
-        padding-right: 30px;]
-    }
-    p{
-        font-size: 14px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .banner{
-        flex-wrap: nowrap;
-        height: initial;
-    }
-
-    #skill1{
-        height: 300px;
-    }
-    #skill2{
-        height: 300px;
-
-    }
-    #skill3{
-        height: 300px;
-
-    }
-
-    #skill4{
-        height: 300px;
-    }
-    #skill5{
-        height: 300px;
-
-    }
-    #skill6{
-        height: 300px;
-
-    }
-
-    .three{
-    }
-
-    #footerDiv{
-        padding-top: 20px;
-    }
-    footer{
-        color: #FFFFFF;
-        font-size: 12px;
-        text-align: center;
-    }
-
-    /*Content:22-Aug-18*/
-    .aboutSection{
-        height:768px;
-        border-style: solid;
-        border-color: blue;
-        border-width: .5px;
-    }
-    .introText{
-        font-family: "Poppins Light", sans-serif;
-        color:#ec9d3e;
-    }
-    .introSubText{
-        font-family: "Varela Round", sans-serif;
-        color: #112b3d;
-        font-weight: bold;
-        font-size: 34px;
-    }
-    .about{
-        position:absolute;
-        bottom:25%;
-        left:60px;
-    }
-    .imageHolder{
-        padding-top: 15px;
-    }
-
-    .skillName{
-        padding-top: 15px;
-    }
-
-    .skillText{
-        margin-left: 10px;
-    }
-
-    /*Content:22-Aug-18*/
-}
-
-@media only screen and (min-width: 764px) and (max-width: 992px) {
-    .logo {
-        width: 29px;
-        height: 54px;
-    }
-    .navbar{
-        background: transparent;
-        position: absolute;
-    }
-    .headerLogo{
-        width: 80px;
-        height: 80px;
-    }
-    .navbar-nav li{
-        padding-left: 45px;
-        padding-right: 45px;]
-    }
-    p{
-        font-size: 18px;
         padding-left: 30px;
         padding-right: 30px;
     }
-
-    .banner{
-        flex-wrap: nowrap;
-        height: initial;
-    }
-
-    #skill1{
-        height: 400px;
-    }
-    #skill2{
-        height: 400px;
-
-    }
-    #skill3{
-        height: 400px;
-
-    }
-
-    #skill4{
-        height: 400px;
-    }
-    #skill5{
-        height: 400px;
-
-    }
-    #skill6{
-        height: 400px;
-
-    }
-
-    .three{
-    }
-
-    #footerDiv{
-        padding-top: 20px;
-    }
-    footer{
-        color: #FFFFFF;
-        font-size: 12px;
-        text-align: center;
-    }
-
-    /*Content:22-Aug-18*/
-    .aboutSection{
-        height:768px;
-        border-style: solid;
-        border-color: blue;
-        border-width: .5px;
-    }
-    .introText{
-        font-family: "Poppins Light", sans-serif;
-        color:#ec9d3e;
-    }
-    .introSubText{
-        font-family: "Varela Round", sans-serif;
-        color: #112b3d;
-        font-weight: bold;
-        font-size: 48px;
-    }
-    .about{
-        position:absolute;
-        bottom:25%;
-        left:60px;
-    }
-    .imageHolder{
-        padding-top: 15px;
-    }
-
-    .skillName{
-        padding-top: 15px;
-    }
-
-    .skillText{
-        margin-left: 10px;
-    }
-
-    /*Content:22-Aug-18*/
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-    .testNav{
-        margin: auto;
+    .nav-link{
+        font-family:"Yantramanav",sans-serif;
+        top: 50%;
     }
     .navbar{
         background: transparent;
         position: absolute;
     }
-    .logo {
-        width: 59px;
-        height: 74px;
+
+    p{
+        font-size: 14px;
+        padding-left: 15%;
+        padding-right: 15%;
     }
+}
+
+@media only screen and (min-width: 764px) and (max-width: 992px) {
+
+
+    .navbar-nav li{
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .nav-link{
+        font-family:"Yantramanav",sans-serif;
+        top: 50%;
+    }
+
+    .navbar{
+        background: transparent;
+        position: absolute;
+    }
+    .headerLogo{
+        width: 80px;
+        height: 80px;
+    }
+
+    p{
+        font-size: 18px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .skill{
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
     .navbar-nav li{
         padding-left: 45px;
         padding-right: 45px;]
     }
+
+    .nav-link{
+        font-family:"Yantramanav",sans-serif;
+        top: 50%;
+    }
+
+    .navbar{
+        background: transparent;
+        position: absolute;
+    }
+
     .headerLogo{
         width: 80px;
         height: 80px;
     }
     p{
         font-size: 18px;
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-    nav li{
-        color: #007bff;
-    }
-    .banner{
-        flex-wrap: nowrap;
-        height: initial;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
-    #skill1{
+    .skill{
         height: 400px;
     }
-    #skill2{
-        height: 400px;
-    }
-    #skill3{
-        height: 400px;
-    }
-
-    #skill4{
-        height: 400px;
-    }
-    #skill5{
-        height: 400px;
-
-    }
-    #skill6{
-        height: 400px;
-
-    }
-
-
-    #footerDiv{
-        padding-top: 25px;
-    }
-    footer{
-        color: #FFFFFF;
-        font-size: 12px;
-        text-align: center;
-    }
-
-    /*Content:22-Aug-18*/
-    .aboutSection{
-        height:768px;
-        border-style: solid;
-        border-color: blue;
-        border-width: .5px;
-    }
-    .introText{
-        font-family: "Poppins Light", sans-serif;
-        color:#ec9d3e;
-    }
-    .introSubText{
-        font-family: "Varela Round", sans-serif;
-        color: #112b3d;
-        font-weight: bold;
-        font-size: 64px;
-    }
-    .about{
-        position:absolute;
-        bottom:25%;
-        left:60px;
-    }
-    .imageHolder{
-        padding-top: 15px;
-    }
-
-    .skillName{
-        padding-top: 15px;
-    }
-
-    .skillText{
-        margin-left: 10px;
-    }
-
-    /*Content:22-Aug-18*/
 }
 
 @media only screen and (min-width: 1200px){
-    .testNav{
-        margin: auto;
-    }
-
     .navbar{
         background: transparent;
         position: absolute;
     }
-    .logo {
-        width: 59px;
-        height: 74px;
-    }
+
     .headerLogo{
         width: 80px;
         height: 80px;
@@ -483,89 +206,14 @@ body {
 
     p{
         font-size: 18px;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 15%;
+        padding-right: 15%;
     }
     nav li{
         color: #007bff;
     }
-    .banner{
-        flex-wrap: nowrap;
-        height: initial;
-    }
 
-    #skill1{
+    .skill{
         height: 400px;
     }
-    #skill2{
-        height: 400px;
-    }
-    #skill3{
-        height: 400px;
-    }
-
-    #skill4{
-        height: 400px;
-    }
-    #skill5{
-        height: 400px;
-
-    }
-    #skill6{
-        height: 400px;
-
-    }
-
-
-    #footerDiv{
-        padding-top: 25px;
-    }
-    footer{
-        color: #FFFFFF;
-        font-size: 12px;
-        text-align: center;
-    }
-
-    /*Content:22-Aug-18*/
-    .aboutSection{
-        height:768px;
-        border-style: solid;
-        border-color: blue;
-        border-width: .5px;
-    }
-    .introText{
-        font-family: "Poppins Light", sans-serif;
-        color:#ec9d3e;
-    }
-    .introSubText{
-        font-family: "Varela Round", sans-serif;
-        color: #112b3d;
-        font-weight: bold;
-        font-size: 64px;
-    }
-    .about{
-        position:absolute;
-        bottom:15%;
-        left:60px;
-    }
-
-    .graphic{
-        position:absolute;
-        top:15%;
-        right:60px;
-    }
-    .imageHolder{
-        padding-top: 15px;
-    }
-
-    .skillName{
-        padding-top: 15px;
-    }
-
-    .skillText{
-        margin-left: 10px;
-    }
-
-
-    /*Content:22-Aug-18*/
 }
