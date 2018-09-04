@@ -49,6 +49,14 @@ h1{
     padding-top: 8%;
     padding-bottom: 8%;
 }
+.aboutMe{
+    opacity: 0;
+    transition: all 1s ease-out;
+    border: 1px solid blue;
+}
+.aboutMe.fade-in{
+    opacity: 1;
+}
 #footer{
     height: 200px;
     background-color: #252828 ;
@@ -70,7 +78,6 @@ h1{
 }
 .graphicSection{
     height:768px;
-    border: 1px solid blue;
 }
 
 .imageHolder{
