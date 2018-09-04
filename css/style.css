@@ -24,7 +24,7 @@ body{
     padding-bottom: 180px;
 }
 .skill{
-    border : #6c757d .025px solid;
+    border :0.025rem solid rgba(108,117,125,0.2);
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -34,7 +34,8 @@ body{
     font-size:14px;
     padding-left: 15%;
     padding-right: 15%;
-    padding-right: 15%;
+    text-align: center;
+
 }
 p{
     font-family: "Poppins Light", sans-serif;
@@ -52,7 +53,7 @@ h1{
 .aboutMe{
     opacity: 0;
     transition: all 1s ease-out;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
 }
 .aboutMe.fade-in{
     opacity: 1;
